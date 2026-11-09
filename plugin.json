@@ -3,7 +3,7 @@
   "author": "Jeffrey Chen",
   "url": "https://github.com/TCOTC/image-squeeze",
   "version": "1.0.0",
-  "minAppVersion": "3.8.3",
+  "minAppVersion": "3.8.3-alpha.8",
   "backends": [
     "windows",
     "linux",
@@ -22,18 +22,18 @@
     "desktop-window",
     "all"
   ],
-  "disabledInPublish": false,
+  "disabledInPublish": true,
   "displayName": {
-    "default": "Plugin Name",
-    "zh-CN": "插件名称"
+    "default": "Image Squeeze",
+    "zh-CN": "图片压缩"
   },
   "description": {
-    "default": "Plugin Description",
-    "zh-CN": "插件描述"
+    "default": "Compress images in the workspace and convert them to WebP with references rewritten automatically",
+    "zh-CN": "压缩工作空间内的图片，可转换为 WebP 并自动改写引用"
   },
   "readme": {
     "default": "README.md",
     "zh-CN": "README.zh-CN.md"
   },
-  "funding": {"custom": ["https://mytemos.com/"]}
+  "funding": { "custom": ["https://mytemos.com/"] }
 }

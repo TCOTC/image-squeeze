@@ -20,6 +20,10 @@ export default [
             "dist",
             "node_modules",
             "index.js",
+            // 下列为本地开发构建的产物（见 webpack.config.js 与 .gitignore）
+            "codecWorker.js",
+            "chunk/**",
+            "wasm/**",
         ],
     },
     ...compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended"),
