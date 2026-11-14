@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 在源码仓库反馈（中文）
+  - name: 在源码仓库反馈
     url: https://github.com/TCOTC/siyuan-packages/issues
     about: 报告问题或提出功能建议请到源码仓库。本仓库只存放集市发布产物。
-  - name: Report in the source repository (English)
+  - name: Report in the source repository
     url: https://github.com/TCOTC/siyuan-packages/issues
     about: Please report bugs or request features in the source repository. This repository only hosts Bazaar releases.
